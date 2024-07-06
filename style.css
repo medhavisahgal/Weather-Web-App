@@ -1,20 +1,23 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-}
-
 @font-face {
     font-family: "snowball";
     src: url('snowballfont/CfSnowballRegular-8xp2.ttf');
 }
 
-body {
-    background: #222;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'snowball';
+    box-sizing: border-box;
 }
 
-h1 {
+
+
+body {
+    background: #282828;
+}
+
+h1,
+h2 {
     font-family: 'snowball';
     color: #fff;
 }
@@ -41,13 +44,13 @@ h1 {
     border: none;
     outline: none;
     background: #ebfffc;
-    color: #555;
+    color: #0f0505;
     padding: 10px 25px;
     height: 60px;
     border-radius: 30px;
     flex: 1;
     margin-right: 16px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .search button {
@@ -102,8 +105,10 @@ h1 {
 
 .humidity,
 .wind {
+    font-family: 'snowball';
     font-size: 28px;
     margin-top: -6px;
+
 }
 
 .weather {
