@@ -8,6 +8,7 @@
     padding: 0;
     font-family: 'snowball';
     box-sizing: border-box;
+    transition: all 0.3s ease;
 }
 
 
@@ -31,8 +32,12 @@ h2 {
     border-radius: 30px;
     padding: 40px 35px;
     text-align: center;
+    transition: all 0.3s ease,background 0.3 ease;
 }
-
+.card:hover {
+    transform: scale(1.05);
+    background: linear-gradient(125deg, #3c24d6, #23ca9e);
+}
 .search {
     width: 100%;
     display: flex;
@@ -61,16 +66,21 @@ h2 {
     border-radius: 50%;
     background: #ebfffc;
     cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
 
 }
 
 .search button img {
     width: 16px;
 }
-
+.search button:hover {
+    background: #02e7cd;
+    transform: rotate(360deg);
+}
 .weather-icon {
     width: 170px;
     margin-top: 30px;
+    transition: transform 0.3s ease;
 }
 
 .weather h1 {
@@ -90,6 +100,10 @@ h2 {
     justify-content: space-between;
     padding: 0 20px;
     margin-top: 50px;
+}
+.search input:focus {
+    background: #d3f7f3;
+    transition: background 0.3s ease;
 }
 
 .column {
