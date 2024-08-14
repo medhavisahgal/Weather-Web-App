@@ -102,7 +102,7 @@ h2 {
     margin-top: 50px;
 }
 .search input:focus {
-    background: #d3f7f3;
+    background: #f5f8f8;
     transition: background 0.3s ease;
 }
 
