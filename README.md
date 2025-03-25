@@ -31,9 +31,6 @@ Welcome to the **Weather Web App**, your go-to tool for real-time weather update
 2. The app fetches real-time weather data from the API.
 3. Weather details (temperature, humidity, wind speed) are instantly displayed.
 
-## 🖼 Screenshots
-*(Add cool screenshots of your app in action!)*
-
 ## 🤝 Contributing
 Got ideas to enhance this project? Feel free to fork, create issues, or submit pull requests. Contributions are always welcome! 🚀
 
