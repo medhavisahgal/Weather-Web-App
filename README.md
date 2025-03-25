@@ -12,7 +12,7 @@ Welcome to the **Weather Web App**, your go-to tool for real-time weather update
 ## 🛠 Technologies Used
 - 🖥 **Frontend** – HTML, CSS, JavaScript
 - ☁️ **Weather Data API** – OpenWeather API (or any weather API used)
-- 🌐 **Hosting** – Deployed on GitHub Pages (if applicable)
+- 🌐 **Hosting** – Deployed on GitHub Pages 
 
 ## 📌 How to Use
 1. **Clone the Repository**
